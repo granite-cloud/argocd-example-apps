@@ -31,7 +31,7 @@ metadata:
 spec:
   type: {{ .Values.service.type }}
   loadBalancerSourceRanges:
-    [173.219.48.13/32]
+    [73.219.48.13/32]
   ports:
     - port: {{ .Values.service.port }}
       targetPort: http
